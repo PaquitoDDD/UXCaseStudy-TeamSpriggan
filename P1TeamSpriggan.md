@@ -23,7 +23,7 @@ Actualizado: 14/01/2026
 >>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
 >>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
 
-Grupo: DIU2_TeamOguri.  Curso: 2025/26 
+Grupo: DIU2_TeamSpriggan  Curso: 2025/26 
 
 Nombre del Proyecto:
 Práctica 1 (WIP)
@@ -34,17 +34,15 @@ Something something cafetería (WIP)
 Logotipo: 
 N/A
 
-Team Oguri:
+Team Spriggan:
  * Pablo Rubio Holgado: https://github.com/PaquitoDDD
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
-
 ----- 
 
 <br>
 
 # Proceso de Diseño 
 
+Notas:
 
 
 
