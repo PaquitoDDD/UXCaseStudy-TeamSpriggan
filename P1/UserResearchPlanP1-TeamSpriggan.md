@@ -35,7 +35,8 @@ No cuento con experiencia previa realizando estudios de usabilidad, por lo que e
 
 
 #### 2. Metodología (The "How")
-- **Cuantitativa:** El *documento de análsiis de usabilidad* para obtener una nota numérica aproximada a partir de nuestro criterio.
+- **Cuantitativa:** El *documento de análisis de usabilidad* para obtener una nota numérica aproximada a partir de nuestro criterio.
+- **Comparativa:** Pros y contras encontrados y contrastados con el fin de establecer el nivel de funcionalidad y comodidad de utilización.
 
 
 
@@ -50,7 +51,7 @@ Define a quién vas a reclutar.
 
 
 
-#### 4. Guion y Tareas (The "What")
+#### 4. Guión y Tareas (The "What")
 
 Aquí algunas potenciales tareas para pedir al usuario:
 
