@@ -17,43 +17,24 @@ Un **UX Research Plan** (Plan de Investigación de Usuario) es el documento estr
 Para que sea profesional, tu plan debe responder a estas secciones:
 #### 1. Antecedentes y Objetivos (The "Why")
 
-- **Contexto:** ¿Por qué estamos evaluando estos prototipos ahora? (Ej: "Validar la nueva interfaz de GazeMapping antes de pasar a desarrollo").
+- **Contexto:** ¿Por qué estamos evaluando estos prototipos ahora?
+Estamos evaluando estos prototipos para hacer un acercamiento inicial a los estudios de usabilidad, en este caso, de una interfaz relacionada con una cafetería.
 
 
 
-- **Objetivos de investigación:** Deben ser específicos. No digas "ver si gusta"; di "evaluar si la ubicación del menú lateral permite completar una reserva en menos de 30 segundos".
+- **Objetivos de investigación:**
+Observar cada uno de los aspectos incluidos en las pautas para realizar el estudio, como preguntarse por el qué, cómo, quién, dónde... o valorar cada uno de los puntos incluidos en la tarjeta de análisis propporcionada.
 
 - **Experiencia del equipo / justificación**
-
-> tipología:
->
-> > como diseñador (he creado productos similares... )
-
->> como stakeholder (he tenido experiencia al ser parte de .... )
-
->> como observador/oir a la gente (observo que....)
-
+No cuento con experiencia previa realizando estudios de usabilidad, por lo que esta será mi primera vez.
 
 
 #### 2. Metodología (The "How")
+- **Cuantitativa:** El *documento de análsiis de usabilidad* para obtener una nota numérica aproximada a partir de nuestro criterio.
 
-INdicar las herramientas a utilizar, p.e. 
-
-- **Cuantitativa:** El cuestionario **SUS** para obtener una nota numérica.
-- **Biométrica:** **Eye Tracking** para ver el comportamiento visual real.
-- **Comparativa:** El **A/B Testing** para medir tu diseño contra el de tu compañero.
-
-Se pueden relacionar sobre el panorama de **Framework tridimensional de métodos UX** de Christian Rohrer (attitudinal Vs Behavioural, Qualitative VS Quantitative, Context of Use)
-
-
-
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QkF2uE-NsI0piP90AQkF-A.png" alt="UX Reaearch Methods" style="height:450px" />
-
-ref: https://www.nngroup.com/articles/which-ux-research-methods/
 
 #### 3. Perfil de los Participantes (The "Who")
-
-Define a quién vas a reclutar.
+Define a quién vas a reclutar. WIP
 
 - **Criterios de inclusión:** Edad, nivel de competencia digital, si usan gafas (por el eye tracking), etc.
   
@@ -63,7 +44,7 @@ Define a quién vas a reclutar.
 
 #### 4. Guion y Tareas (The "What")
 
-¿Qué le vas a pedir al usuario que haga exactamente?
+¿Qué le vas a pedir al usuario que haga exactamente? WIP
 
 - "Busca el producto X y añádelo al carrito".
   
@@ -73,10 +54,7 @@ Define a quién vas a reclutar.
 
 
 #### 5. Cronograma y Entregables
-
-> Simplemente enumerar los entrañables que se suponen se van a desarrollar con el estudio
-
-- p.e.  **Usability Report** final con las recomendaciones de mejora.
+- **Usability Report** Tarjeta con análisis realizado de distintos aspectos y nota proporcionada, junto a algunas sugerencias de mejora.
 
 
 
