@@ -18,14 +18,17 @@ Para que sea profesional, tu plan debe responder a estas secciones:
 #### 1. Antecedentes y Objetivos (The "Why")
 
 - **Contexto:** ¿Por qué estamos evaluando estos prototipos ahora?
+
 Estamos evaluando estos prototipos para hacer un acercamiento inicial a los estudios de usabilidad, en este caso, de una interfaz relacionada con una cafetería.
 
 
 
 - **Objetivos de investigación:**
+
 Observar cada uno de los aspectos incluidos en las pautas para realizar el estudio, como preguntarse por el qué, cómo, quién, dónde... o valorar cada uno de los puntos incluidos en la tarjeta de análisis propporcionada.
 
 - **Experiencia del equipo / justificación**
+
 No cuento con experiencia previa realizando estudios de usabilidad, por lo que esta será mi primera vez.
 
 
