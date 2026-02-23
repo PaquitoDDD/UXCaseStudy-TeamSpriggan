@@ -1,6 +1,6 @@
 
 
-## User Research Plan (template)
+## User Research Plan - Spriggan
 
 Diseño de Interfaces de Usuario, entregable práctica 1. 
 
