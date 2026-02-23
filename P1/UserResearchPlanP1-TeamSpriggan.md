@@ -71,6 +71,11 @@ Aquí algunas potenciales tareas para pedir al usuario:
 
 
 
+#### 6. Descripción escueta de objetivos
+
+En general, el objetivo es identificar algunas de las acciones más comunes que un cliente buscaría hacer en una página sobre una cafetería, como consultar datos de la tienda o realizar un pedido, y contrastar aspectos como la facilidad de uso para determinar la calidad de la UX.
+
+
 
 
 
