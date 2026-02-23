@@ -57,7 +57,7 @@ Define a quién vas a reclutar. WIP
 
 
 #### 5. Cronograma y Entregables
-- **Usability Report** Tarjeta con análisis realizado de distintos aspectos y nota proporcionada, junto a algunas sugerencias de mejora.
+- **Usability Report**: Tarjeta con análisis realizado de distintos aspectos y nota proporcionada, junto a algunas sugerencias de mejora.
 
 
 
