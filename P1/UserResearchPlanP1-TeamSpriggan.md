@@ -32,26 +32,35 @@ Observar cada uno de los aspectos incluidos en las pautas para realizar el estud
 No cuento con experiencia previa realizando estudios de usabilidad, por lo que esta será mi primera vez.
 
 
+
+
 #### 2. Metodología (The "How")
 - **Cuantitativa:** El *documento de análsiis de usabilidad* para obtener una nota numérica aproximada a partir de nuestro criterio.
 
 
-#### 3. Perfil de los Participantes (The "Who")
-Define a quién vas a reclutar. WIP
 
-- **Criterios de inclusión:** Edad, nivel de competencia digital, si usan gafas (por el eye tracking), etc.
+
+#### 3. Perfil de los Participantes (The "Who")
+Define a quién vas a reclutar.
+
+- **Criterios de inclusión:** Edad, nivel de competencia digital, frecuencia de ingesta de café, experiencia comprando suministros de café por internet
   
-- **Segmentación:** Usuarios de clase (co-evaluación) vs. usuarios externos.
+- **Segmentación:** Usuarios experienciados vs usuarios rookies
+
 
 
 
 #### 4. Guion y Tareas (The "What")
 
-¿Qué le vas a pedir al usuario que haga exactamente? WIP
+Aquí algunas potenciales tareas para pedir al usuario:
 
-- "Busca el producto X y añádelo al carrito".
+- Añade cualquier producto al carrito.
+
+- Realiza una búsqueda por filtros de un tipo de café que quieras.
+
+- Crea una cuenta incluyendo detalles de entrega.
   
-- "Encuentra el horario de apertura de la tienda".
+- Encuentra el apartado de atención al cliente.
   
 
 
