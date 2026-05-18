@@ -17,31 +17,18 @@ Actualizado: 14/01/2026
 ![Método UX](img/caseStudy.png) 
 -----
 
->>> Este documento es el esqueleto del Case Study que explica el proceso de desarrollo de las 5 prácticas de DIU. Aparte de subir cada entrega a PRADO, se debe actualizar y dar formato de informe final a este documento online. Elimine este tipo de texto / comentarios desde la práctica 1 conforme proceda a cada paso
+Grupo: DIU2_TeamSpriggan
+Curso: 2025/26
 
+Nombre del Proyecto: Despiertoo Weekly
 
->>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
-
-Grupo: DIUx_AABB.  Curso: 2025/26 
-
-Nombre del Proyecto: 
-
->>> Decida el nombre corto de su propuesta en la práctica 2 
-
-Descripción: 
-
->>> Describa la idea de su producto en la práctica 2 
+Descripción: Se ha realizado una extensión de la página ya existente de Despiertoo, con una sección "Weekly" nueva que busca abordar los intereses de distintos tipos de usuarios en un sistema que busca mostrar las distintas variedades de café por todo el mundo.
 
 Logotipo: 
+<img width="1188" height="828" alt="winli1" src="https://github.com/user-attachments/assets/9d914125-00dd-44f0-9ee9-28efcc7319db" />
 
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
-
-Miembros y nombre del equipo:
- * :bust_in_silhouette:  AA     :octocat:     
- * :bust_in_silhouette:  BB     :octocat:
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
+Team Spriggan:
+ * Pablo Rubio Holgado: https://github.com/PaquitoDDD
 
 ----- 
 
@@ -57,82 +44,95 @@ Miembros y nombre del equipo:
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
 ### 1.a User Reseach Plan
 ![Método UX](img/Competitive.png) 
------
+#### Antecedentes y Objetivos (The "Why")
+**Contexto:** Estamos evaluando estos prototipos para hacer un acercamiento inicial a los estudios de usabilidad, en este caso, de una interfaz relacionada con una cafetería.
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+**Objetivos de investigación:** Observar cada uno de los aspectos incluidos en las pautas para realizar el estudio, como preguntarse por el qué, cómo, quién, dónde... o valorar cada uno de los puntos incluidos en la tarjeta de análisis proporcionada.
+
+**Experiencia del equipo/justificación:** No cuento con experiencia previa realizando estudios de usabilidad, por lo que esta será mi primera vez.
+
+#### Metodología (The "How")
+- **Cuantitativa:** El documento de análisis de usabilidad para obtener una nota numérica aproximada a partir de nuestro criterio.
+- **Comparativa:** Pros y contras encontrados y contrastados con el fin de establecer el nivel de funcionalidad y comodidad de utilización.
+
+#### Perfil de los Participantes (The "Who")
+**Criterios de inclusión:** Edad, nivel de competencia digital, frecuencia de ingesta de café, experiencia comprando suministros de café por internet.
+**Segmentación:** Usuarios que buscan comprar café, y usuarios que buscan ir a tomar un café en uno de los locales.
+
+#### Guión y Tareas (The "What")
+Posibles tareas para pedir al usuario:
+- Añade cualquier producto al carrito.
+- Realiza una búsqueda por filtros de un tipo de café que quieras.
+- Crea una cuenta incluyendo detalles de entrega.
+- Encuentra el apartado de atención al cliente.
+
+#### Cronograma y Entregables
+- **Competitive Analysis:** Análisis y comparación entre varias páginas relacionadas con el café.
+- **Personas y Journey Maps:** Fichas de dos usuarios y de su experiencia al utilizar la página a analizar.
+- **Usability Report:** Tarjeta con análisis realizado de distintos aspectos y nota proporcionada, junto a algunas sugerencias de mejora.
+
+#### Descripción escueta de objetivos
+En general, el objetivo es identificar algunas de las acciones más comunes que un cliente buscaría hacer en una página sobre una cafetería, como consultar datos de la tienda o realizar un pedido, y contrastar aspectos como la facilidad de uso para determinar la calidad de la UX.
 
 
 ### 1.b Competitive Analysis
 ![Método UX](img/Competitive.png) 
------
+Proporcionado en el archivo de FIGMA, encontramos el análisis entre tres páginas de locales de café granadinos: **Despiertoo**, **La Finca Roaster**, y **BonneVie**. Nos encargamos de analizar los cinco tipos de aspectos proporcionados:
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+- Arquitectura de la información
+- Diseño y usabilidad
+- UX y funcionalidad
+- Accesibilidad
+- Soporte y contacto
+
+**Resultado general del análisis:**  
+Encontrar páginas relativamente sencillas, que en su mayoría se dedicaban a ofrecer una interfaz de tienda con una selección curada de productos, así como información sobre localizaciones, métodos de contacto, y algunos otros detalles sobre la valoración del café. Si observamos más detenidamente, encontramos diferencias entre cada página, como el uso de texto alternativo, la presencia de locales y contactos (o más bien, la falta de estos en BonneVie), o las diferencias en la implementación de la tienda. 
 
 
 ### 1.c Personas
 ![Método UX](img/Persona.png) 
------
-
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+He creado dos personas para realizar un análisis mediante journey maps: **Machias Smith** y **Shizuna Gómez**.  
+Estos perfiles están basados en la dicotomía planteada en el User Research Plan de persona que busca comprar café contra persona que busca ir a tomarse un café, por lo que el journey map se basa en la experiencia de ambos buscando conseguir su respectivo objetivo.
 
 
 ### 1.d User Journey Map
 ![Método UX](img/JourneyMap.png) 
-----
-
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+Debido a la simplicidad de la página de Despiertoo, ambos journey maps son bastante simples, ya que se completan exclusivamente con las opciones ofrecidas en la barra superior, disponible y visible desde el primer momento que se entra a la página. Se han documentado igualmente, y se puede apreciar una diferencia entre la "dificultad" de las experiencias de cada persona.
 
 
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
-----
+Finalmente, se ha hecho una Usability Review de la página de Despiertoo, siguiendo el documento de calificación aportado. Aquí algunas observaciones generales a modo de conclusión sobre el análisis:
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+- **Funcionalidad:** La funcionalidad y prestaciones necesarias de la página están todas presentes, y funcionan de forma excelente, ya que es posible completar el proceso de compra o de búsqueda de información de manera sencilla.
+- **Sencillez:** Salvo algunos aspectos menores como la falta de breadcrumbs, la sencillez de la página significa que es sencillo manejar a través de ella, sobre todo gracias a la implementación de la barra superior que nos lleva a todas las subpáginas más destacables y necesarias.
+- **Búsqueda:** La búsqueda en la tienda deja un poco que desear, al faltar opciones esenciales como una barra de búsqueda. No obstante, esto se podría excusar debido a la selección curada y limitada de productos que hace posible obviar términos de ordenación y búsqueda más específicos.
+- **Control/feedback y errores:** Los estándares de control/feedback, formularios y errores son adecuados para una página de esta complejidad. Por este mismo hecho se puede explicar la falta de una sección de ayuda para usuarios menos experienciados.
+- **Lenguaje:** El lenguaje utilizado es simple y conciso, usado para explicaciones sobre el proceso de elaboración del café, entre otros aspectos.
+- **Rendimiento:** La estabilidad y rendimiento de la página es excelente, tanto en ordenador como en dispositivo móvil.
 
 <br>
 
 ## Paso 2. UX Design  
-
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
+### 2.a Reframing / IDEACION: Feedback Capture Grid / Empathy map 
 ![Método UX](img/feedback-capture-grid.png) 
-----
+<img width="1440" height="900" alt="feedback-capture-grid" src="https://github.com/user-attachments/assets/25bbd90f-ff5a-4a30-83c8-b89f4ddc59f8" />
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
-
-
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+En resumen, se han planteado cuestiones relacionadas con los deseos de los distintos prototipos de personas que visitan la tienda o la página, así como formas de extender la marca y sus productos mediante un nuevo sistema a añadir.
 
 
 ### 2.b ScopeCanvas
 ![Método UX](img/ScopeCanvas.png)
-----
-
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
-
+<img width="1920" height="1080" alt="Scope Canvas" src="https://github.com/user-attachments/assets/52e4cd80-f0df-483b-8545-cb34dbecdd80" />
 
 
 ### 2.b User Flow (task) analysis 
 ![Método UX](img/Sitemap.png) 
------
+<img width="1238" height="545" alt="UserFlow" src="https://github.com/user-attachments/assets/68efde5f-c4c1-4ad7-b2d6-9fb25d5723ff" />
+El User Flow se ha planteado de forma preeliminar siguiendo las posibles rutas de las dos personas planteadas en la Práctica 1.
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
 
 
 ### 2.c IA: Sitemap + Labelling 
