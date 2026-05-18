@@ -139,62 +139,61 @@ El User Flow se ha planteado de forma preeliminar siguiendo las posibles rutas d
 ![Método UX](img/labelling.png) 
 ----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
-
 Término | Significado     
 | ------------- | -------
-  Login  | acceder a plataforma
-
+  Weekly  | Semanal
+  
+<img width="744" height="432" alt="Despier2" src="https://github.com/user-attachments/assets/0339f777-6093-49fd-81d7-d5174c30822f" />
 
 ### 2.d Wireframes
 ![Método UX](img/Wireframes.png) 
 -----
+<img width="1867" height="2209" alt="mockup" src="https://github.com/user-attachments/assets/fa956031-2267-443f-beb7-b334dfc95867" />
+<img width="1504" height="2739" alt="MockupFigma" src="https://github.com/user-attachments/assets/e5031273-5c77-408d-a46f-3d04f66ee962" />
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
+El mockup inicial se hizo en paint.net de forma manual, con la segunda versión siendo implementada utilizando frames de disposición automática en Figma.
 
 <br>
 
 ## Paso 3. Mi UX-Case Study (diseño)
-
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
 ### 3.a Moodboard
 ![Método UX](img/moodboard.png)
 -----
+<img width="5318" height="3473" alt="Moodboard - Spriggan" src="https://github.com/user-attachments/assets/1d3e7ab5-6e12-4871-91ab-a610d9e83b34" />
+Se ha utilizado la plantilla de moodboard de Figma disponible en la asignatura. La organización no es apta para algo como una cabecera en redes sociales, pero da una buena muestra de lo que se está buscando de cara al diseño final.
 
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
-
-
-### 3.b Landing Page
-![Método UX](img/landing-page.png) 
-----
-
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
-
-
-### 3.c Guidelines
+### 3. Design System/Atomic Design
 ![Método UX](img/guidelines.png) 
 ----
-
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+<img width="3136" height="5602" alt="Design System Foundation (Community)" src="https://github.com/user-attachments/assets/49ae018d-6a82-4fb7-922e-573cef334a09" />
+Utilizando el plugin de Foundation Studio para hacer una base de colores, se implementaron la mayoría de recursos disponibles en el Design System Foundation siguiendo patrones especificados en el moodboard, como los colores y las fuentes (Montserrat e Inter Light 18pt).
 
 
 ### 3.d Mockup
 ![Método UX](img/mockup.png) 
 ----
-
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+<img width="1475" height="4143" alt="Weekly" src="https://github.com/user-attachments/assets/79b69e52-3a02-4121-8a62-186230e56b09" />
+<img width="1741" height="4248" alt="Weekly (Artículo)" src="https://github.com/user-attachments/assets/e1466d00-4a85-4896-b7d6-ed24aa04c0e1" />
+<img width="1760" height="2735" alt="Weekly (Compra)" src="https://github.com/user-attachments/assets/b685bc2d-0caa-4cf4-9aeb-d1fa3bb517ab" />
+<img width="1760" height="1880" alt="Weekly (Intro Evento)" src="https://github.com/user-attachments/assets/35f21354-06fd-4cf3-9c93-cd4aa8a6f2ee" />
 
 
 <br>
 
-## Paso 4. Pruebas de Evaluación 
+## Paso 4. Exportación y Documentación 
 
-### 4.a Reclutamiento de usuarios 
+
+### 4.a Exportación a HTML/React
+![Método UX](img/usabilityReview.png) 
+----
+Para el paso a React, se ha empezado haciendo una instalación de los componentes ofrecidos al principio de la práctica, junto a algunas modificaciones como el uso de dmpm en vez de mpm debido a la antigüedad de la máquina virtual empleada. Seguidamente, se ha empleado Figma Make para mantener el diseño realizado en la Práctica 3, a la vez que se han juntado las páginas con React Router (se pueden acceder con los botones Tienda, Eventos, Weekly y "Descubre Brasil" en la landing page).
+Toda la implementación está disponible en la carpeta de la P4.
+
+<br>
+
+## Paso 5. Pruebas de Evaluación 
+
+### 5.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
 -----
 
@@ -211,7 +210,7 @@ Término | Significado
 | User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
 
 
-### 4.b Diseño de las pruebas 
+### 5.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
 
@@ -219,7 +218,7 @@ Término | Significado
 
 
 
-### 4.c Cuestionario SUS
+### 5.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
 ----
 
@@ -229,13 +228,13 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 >>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
 
 
-### 4.d A/B Testing
+### 5.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
 >>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
 
-### 4.e Aplicación del método Eye Tracking 
+### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
 
@@ -248,7 +247,7 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 >>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
 
 
-### 4.f Usability Report de B
+### 5.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
@@ -261,24 +260,6 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 
 <br>
 
-## Paso 5. Exportación y Documentación 
-
-
-### 5.a Exportación a HTML/React
-![Método UX](img/usabilityReview.png) 
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
-
-
-### 5.b Documentación con Storybook
-![Método UX](img/usabilityReview.png)
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
-
-
-<br>
 
 ## Conclusiones finales & Valoración de las prácticas
 
