@@ -196,18 +196,21 @@ Toda la implementación está disponible en la carpeta de la P4.
 ### 5.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
 -----
-
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
-
+Se han reclutado a 7 personas distintas para las pruebas, donde cada una ha hecho uno de los dos casos, y las tres últimas han hecho adicionalmente el caso contrario, para llegar a un balance de 5 pruebas sobre el caso A, y 5 sobre el caso B.
 
 
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
 | ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
+| Ismael  | M / 21   | Estudiante  | Alta       | Extrovertido | Web       | A 
+| Ismael  | M / 26   | Ciberseguridad  | Alta       | Introvertido       | Web        | B 
+| Andrés  | M / 20   | Estudiante     | Alta        | Emocional    | Web      | B 
+| Alberto  | M / 20   | Estudiante  | Alta       | Relajado     | Web        | A 
+| Claudio  | M / 55   | Pediatra  | Media       | Racional     | Web        | A 
+| Claudio  | M / 55   | Pediatra  | Media       | Racional     | Web        | B 
+| Mariángeles  | H / 57   | Pediatra  | Media       | Emocional     | Web        | A 
+| Mariángeles  | H / 57   | Pediatra  | Media       | Emocional     | Web        | B 
+| Claudia  | H / 17   | Estudiante  | Media       | Emocional     | Web        | A 
+| Claudia  | H / 17   | Estudiante  | Media       | Emocional     | Web        | B 
 
 
 ### 5.b Diseño de las pruebas 
