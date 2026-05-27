@@ -202,52 +202,75 @@ Se han reclutado a 7 personas distintas para las pruebas, donde cada una ha hech
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
 | ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
 | Ismael  | M / 21   | Estudiante  | Alta       | Extrovertido | Web       | A 
-| Ismael  | M / 26   | Ciberseguridad  | Alta       | Introvertido       | Web        | B 
-| Andrés  | M / 20   | Estudiante     | Alta        | Emocional    | Web      | B 
+| Ismael  | M / 26   | Ciberseguridad  | Alta       | Introvertido       | Web        | B
 | Alberto  | M / 20   | Estudiante  | Alta       | Relajado     | Web        | A 
+| Andrés  | M / 20   | Estudiante     | Alta        | Emocional    | Web      | B 
 | Claudio  | M / 55   | Pediatra  | Media       | Racional     | Web        | A 
-| Claudio  | M / 55   | Pediatra  | Media       | Racional     | Web        | B 
-| Mariángeles  | H / 57   | Pediatra  | Media       | Emocional     | Web        | A 
-| Mariángeles  | H / 57   | Pediatra  | Media       | Emocional     | Web        | B 
+| Claudio  | M / 55   | Pediatra  | Media       | Racional     | Web        | B
 | Claudia  | H / 17   | Estudiante  | Media       | Emocional     | Web        | A 
 | Claudia  | H / 17   | Estudiante  | Media       | Emocional     | Web        | B 
+| Mariángeles  | H / 57   | Pediatra  | Media       | Emocional     | Web        | A 
+| Mariángeles  | H / 57   | Pediatra  | Media       | Emocional     | Web        | B 
 
 
 ### 5.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
+Cada una de las pruebas se hizo en un entorno por separado (incluyendo los resultados del heatmap), y a cada participante se le dieron instrucciones para realizar la prueba del heatmap, observando y pulsando en aquello que les llamara la atención durante las páginas. Seguidamente, se les dio acceso a la versión funcional de la página con unas pocas tareas básicas para cada caso:
+- Caso A
+-- Encontrar la sección sobre cafés de Brasil.
+-- Buscar información sobre el evento presencial con temática de Brasil.
+-- Añadir tres productos distintos al carrito.
+- Caso B
+-- Realizar una reserva de mesa.
+-- Buscar información sobre el sistema de gachapón PakuPaku-Go.
+-- Encontrar los nombres del equipo de trabajadores de SushiJAMA.
 
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
+
+### 5.c Aplicación del método Eye Tracking 
+![Método UX](img/eye-tracking.png)
+----
+Tras el reclutamiento de participantes, se les asignó un caso, y se grabaron los datos por separado, algunos de los cuales vienen incluidos en la carpeta de la práctica correspondiente. Para sintetizar los resultados, se destacará aquello que fue más observado en cada caso:
+- Caso A: Los usuarios hicieron énfasis en el uso de tipografía grande y colorida (color + contorno), posiblemente debido al contraste con el diseño minimalista de la página. Los elementos de selección también tuvieron bastante protagonismo, tomando por ejemplo los botones de selección en la parte principal de la tienda, o el menú de selección de tipo de grano en las páginas de compra de cada café.
+- Caso B: Las imágenes y el uso ocasional de colores como el naranja fueron los más capaces de captar la atención en esta página, posiblemente por el contraste con el diseño de fondo basado en colores fríos. Algunas de las ventanas pequeñas con explicación sobre conceptos también captaron bastante la atención, a pesar de su tamaño.
 
 
-
-### 5.c Cuestionario SUS
+### 5.d Cuestionario SUS y A/B Testing
 ![Método UX](img/Survey.png) 
 ----
 
 >>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
 http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
 Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
-
-
-### 5.d A/B Testing
-![Método UX](img/ABtesting.png) 
------
+>>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados
 
 >>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
 
-### 5.e Aplicación del método Eye Tracking 
-![Método UX](img/eye-tracking.png)
-----
+| ID | Nombre | Sistema | SUS Score |
+|---------------|---------------|---------|-----------|
+| LZaQqkG       | Ismael (1)       | A       | 70.0      |
+| dW85Xzq       | Ismael (2)       | B       | 72.5      |
+| rjJx47M       | Alberto       | A       | 65.0      |
+| kdJDY01       | Andrés       | B       | 95.0      |
+| eqYrXk0       | Claudio       | A       | 87.5      |
+| eqYrXk0       | Claudio       | B       | 87.5      |
+| eqYrXk0       | Claudia       | A       | 87.5      |
+| eqYrXk0       | Claudia       | B       | 90.0      |
+| eqYrXk0       | Mariángeles       | A       | 87.5      |
+| eqYrXk0       | Mariángeles       | B       | 97.5      |
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
+| Métrica | Caso A | Caso B | Ganador | Diferencia |
+|---------|--------|--------|---------|-------------|
+| **Media SUS** | 79.5 | 88.5 | **B** | +9.0 |
+| **Mediana SUS** | 87.5 | 90.0 | **B** | +2.5 |
+| **Desviación Estándar** | 10.3 | 9.3 | **B** | -1.0 |
+| **Mínimo SUS** | 65.0 | 72.5 | **B** | +7.5 |
+| **Máximo SUS** | 87.5 | 97.5 | **B** | +10.0 |
+| **Rango Intercuartil (IQR)** | 17.5 | 7.5 | **B** | -10.0 |
+| **Tasa de Éxito (SUS ≥ 70)** | 80% | 100% | **B** | +20% |
+| **Tasa de Excelencia (SUS ≥ 85)** | 60% | 80% | **B** | +20% |
+Podemos conlcuir que el Caso B es notablemente más utilizable al ganar en la escala SUS. A pesar de ambos sistemas parecen buenos, el Caso A tiene ciertas fricciones sobre la facilidad y el flow de uso debido a una ligera falta de intuitividad, mientras que el Caso B consigue unos resultado unánimes en cuanto a falta de problemas notables.
 
-
-![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
-
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
 
 
 ### 5.f Usability Report de B
