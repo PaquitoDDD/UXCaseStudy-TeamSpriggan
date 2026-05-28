@@ -128,22 +128,35 @@ Las capturas de GazeMapping para el Caso B revelaron:
 
 ### Puntuación Automática
 
-| Herramienta | Puntuación | Nota |
-|-------------|------------|------|
-| **Lighthouse** (Accesibilidad) | 78/100 | Mejorable |
-| **WAVE** | 3 errores, 8 alertas | Contraste y estructura |
+| Herramienta                       | Puntuación | Nota                                       |
+| --------------------------------- | ---------- | ------------------------------------------ |
+| **Lighthouse** (Accesibilidad)    | 93/100     | Muy buena, con pequeñas mejoras pendientes |
+| **Lighthouse** (SEO)              | 58/100     | Problemas de indexación detectados         |
+| **Lighthouse** (Buenas prácticas) | 100/100    | Cumplimiento excelente                     |
+| **Lighthouse** (Rendimiento)      | 90/100     | Rendimiento optimizado                     |
 
 ### Principales barreras identificadas
 
-| Categoría | Problema | Criterio WCAG | Impacto | Recomendación |
-|-----------|----------|---------------|---------|----------------|
-| **Perceptible** | Contraste insuficiente en botones secundarios (gris claro sobre blanco) | 1.4.3 (Contraste mínimo) | Usuarios con baja visión pueden no distinguir acciones secundarias | Cambiar texto a gris oscuro (#333) o fondo a tonalidad más oscura |
-| **Perceptible** | Imágenes de menús sin texto alternativo descriptivo | 1.1.1 (Contenido no textual) | Lectores de pantalla omiten información del menú | Añadir atributo `alt` descriptivo a cada imagen |
-| **Operable** | Navegación por teclado parcialmente inconsistente (focus no visible en algunos elementos) | 2.4.7 (Focus visible) | Usuarios de teclado pierden el punto de enfoque | Añadir `outline` personalizado o mantener el estilo por defecto del navegador |
-| **Comprensible** | Idioma de la página no definido explícitamente en `<html>` | 3.1.1 (Idioma de la página) | Lectores de pantalla pueden usar pronunciación incorrecta | Añadir `lang="es"` en la etiqueta HTML |
+| Categoría        | Problema                                                                                      | Criterio WCAG                           | Impacto                                                                                               | Recomendación                                                               |
+| ---------------- | --------------------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Perceptible**  | Los colores de fondo y primer plano no tienen una relación de contraste adecuada              | 1.4.3 (Contraste mínimo)                | Usuarios con baja visión o dificultades visuales pueden tener problemas para leer determinados textos | Ajustar colores de texto y fondo para aumentar el contraste según WCAG AA   |
+| **Operable**     | Algunos elementos descriptivos no contienen nombres accesibles                                | 4.1.2 (Nombre, función y valor)         | Usuarios que utilizan lectores de pantalla pueden no comprender la función de ciertos elementos       | Añadir etiquetas accesibles (`aria-label`, `title` o texto descriptivo)     |
+| **Operable**     | Navegación por teclado parcialmente inconsistente (focus poco visible en algunos componentes) | 2.4.7 (Focus visible)                   | Usuarios que navegan únicamente con teclado pueden perder la referencia visual                        | Mantener o personalizar correctamente el `outline` o estado de foco visible |
+| **Comprensible** | El contenido multimedia no dispone de alternativas completas o descriptivas                   | 1.2.1 (Solo audio y solo vídeo grabado) | Usuarios con discapacidad auditiva o visual pueden perder información importante                      | Añadir subtítulos, descripciones o transcripciones accesibles               |
+| **Robusto**      | Problemas menores de estructura semántica detectados por Lighthouse                           | 4.1.1 (Procesamiento)                   | Algunos lectores de pantalla podrían interpretar incorrectamente ciertos componentes                  | Mejorar la estructura HTML semántica y validar el marcado                   |
 
-**Valoración general de accesibilidad:**  
-*Regular* (78/100). El diseño es funcional para la mayoría de usuarios, pero requiere mejoras para cumplir con estándares WCAG 2.1 nivel AA, especialmente en contraste y texto alternativo.
+### Resultados adicionales detectados por Lighthouse
+
+* Reducción recomendada de contenido JavaScript no utilizado.
+* Imágenes con tamaño superior al necesario.
+* Recursos de red que bloquean el renderizado inicial.
+* Ausencia de mapa de sitio SEO y problemas de indexación mediante `robots.txt`.
+
+### Valoración general de accesibilidad
+
+**Buena (93/100).**
+La aplicación presenta un nivel de accesibilidad elevado y cumple en gran medida con las recomendaciones de WCAG 2.1 nivel AA. Las principales mejoras pendientes están relacionadas con el contraste de colores, algunos nombres accesibles en componentes interactivos y ciertos elementos multimedia. En términos generales, el sitio resulta usable para la mayoría de usuarios, incluidos usuarios que utilizan tecnologías de asistencia.
+
 
 ---
 
