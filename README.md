@@ -190,7 +190,7 @@ NOTA: Partiendo de las bases de los botones inicialmente planteados en el Atomic
 ----
 Para el paso a React, se ha empezado haciendo una instalación de los componentes ofrecidos al principio de la práctica, junto a algunas modificaciones como el uso de dmpm en vez de mpm debido a la antigüedad de la máquina virtual empleada. Seguidamente, se ha empleado Figma Make para mantener el diseño realizado en la Práctica 3, a la vez que se han juntado las páginas con React Router (se pueden acceder con los botones Tienda, Eventos, Weekly y "Descubre Brasil" en la landing page).
 Toda la implementación está disponible en la carpeta de la P4.
-
+La página completa se puede acceder aquí: https://duct-viewer-92458291.figma.site
 <br>
 
 ## Paso 5. Pruebas de Evaluación 
@@ -274,22 +274,11 @@ Podemos conlcuir que el Caso B es notablemente más utilizable al ganar en la es
 ### 5.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
-
->>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
->>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
-
->>> Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
-
-
+El Usability Report para el Caso B (SushiJAMA) está en la carpeta de la P5.
 
 <br>
 
 
 ## Conclusiones finales & Valoración de las prácticas
-
-
->>> Opinión FINAL del proceso de desarrollo de diseño siguiendo metodología UX y valoración (positiva /negativa) de los resultados obtenidos. ¿Qué se puede mejorar? Recuerda que este tipo de texto se debe eliminar del template que se os proporciona 
-
-
-
+El proceso de desarrollo me ha parecido interesante, especialmente por el enfoque en mejorar una página ya existente en lugar de crear una nueva, y diría que el resultado final es bastante apropiado. El propio planteamiento de las prácticas es correcto, si bien ha habido algo de caos al final por la presión de tiempo, e instrucciones algo menos conscisas en los documentos sobre las últimas prácticas. Aparte de eso, todo correcto.
 
