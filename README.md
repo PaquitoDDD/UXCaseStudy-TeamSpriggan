@@ -165,8 +165,10 @@ Se ha utilizado la plantilla de moodboard de Figma disponible en la asignatura. 
 ### 3. Design System/Atomic Design
 ![Método UX](img/guidelines.png) 
 ----
-<img width="3136" height="5602" alt="Design System Foundation (Community)" src="https://github.com/user-attachments/assets/49ae018d-6a82-4fb7-922e-573cef334a09" />
+<img width="3136" height="5602" alt="Design System Foundation Deluxe" src="https://github.com/user-attachments/assets/5116d8b6-fd49-49a0-8dfc-61f08ca085ca" />
+
 Utilizando el plugin de Foundation Studio para hacer una base de colores, se implementaron la mayoría de recursos disponibles en el Design System Foundation siguiendo patrones especificados en el moodboard, como los colores y las fuentes (Montserrat e Inter Light 18pt).
+NOTA: Partiendo de las bases de los botones inicialmente planteados en el Atomic Design, se han implmentado y expandido su uso y aspecto en la Práctica 4 usando Figma Make.
 
 
 ### 3.d Mockup
@@ -231,20 +233,15 @@ Cada una de las pruebas se hizo en un entorno por separado (incluyendo los resul
 ![Método UX](img/eye-tracking.png)
 ----
 Tras el reclutamiento de participantes, se les asignó un caso, y se grabaron los datos por separado, algunos de los cuales vienen incluidos en la carpeta de la práctica correspondiente. Para sintetizar los resultados, se destacará aquello que fue más observado en cada caso:
-- Caso A: Los usuarios hicieron énfasis en el uso de tipografía grande y colorida (color + contorno), posiblemente debido al contraste con el diseño minimalista de la página. Los elementos de selección también tuvieron bastante protagonismo, tomando por ejemplo los botones de selección en la parte principal de la tienda, o el menú de selección de tipo de grano en las páginas de compra de cada café.
-- Caso B: Las imágenes y el uso ocasional de colores como el naranja fueron los más capaces de captar la atención en esta página, posiblemente por el contraste con el diseño de fondo basado en colores fríos. Algunas de las ventanas pequeñas con explicación sobre conceptos también captaron bastante la atención, a pesar de su tamaño.
+-- Caso A
+Los usuarios hicieron énfasis en el uso de tipografía grande y colorida (color + contorno), posiblemente debido al contraste con el diseño minimalista de la página. Los elementos de selección también tuvieron bastante protagonismo, tomando por ejemplo los botones de selección en la parte principal de la tienda, o el menú de selección de tipo de grano en las páginas de compra de cada café.
+-- Caso B
+Las imágenes y el uso ocasional de colores como el naranja fueron los más capaces de captar la atención en esta página, posiblemente por el contraste con el diseño de fondo basado en colores fríos. Algunas de las ventanas pequeñas con explicación sobre conceptos también captaron bastante la atención, a pesar de su tamaño.
 
 
 ### 5.d Cuestionario SUS y A/B Testing
 ![Método UX](img/Survey.png) 
 ----
-
->>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados
-
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
 
 | ID | Nombre | Sistema | SUS Score |
 |---------------|---------------|---------|-----------|
@@ -269,6 +266,7 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 | **Rango Intercuartil (IQR)** | 17.5 | 7.5 | **B** | -10.0 |
 | **Tasa de Éxito (SUS ≥ 70)** | 80% | 100% | **B** | +20% |
 | **Tasa de Excelencia (SUS ≥ 85)** | 60% | 80% | **B** | +20% |
+
 Podemos conlcuir que el Caso B es notablemente más utilizable al ganar en la escala SUS. A pesar de ambos sistemas parecen buenos, el Caso A tiene ciertas fricciones sobre la facilidad y el flow de uso debido a una ligera falta de intuitividad, mientras que el Caso B consigue unos resultado unánimes en cuanto a falta de problemas notables.
 
 
