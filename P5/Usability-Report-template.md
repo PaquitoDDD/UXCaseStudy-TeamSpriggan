@@ -162,13 +162,15 @@ La aplicación presenta un nivel de accesibilidad elevado y cumple en gran medid
 
 ## 6. Conclusiones y Recomendaciones (Actionable Insights)
 
-| Prioridad | Hallazgo | Recomendación de Mejora |
-|-----------|----------|--------------------------|
-| **Alta (Crítica)** | El SUS muestra una puntuación de 88.5 (excelente), pero el ítem de "complejidad" (P2) es el peor valorado (82.5 transformado). El eye tracking indica que la lista del equipo fue ignorada por el 55% de usuarios. | Reorganizar la sección "Equipo" en un lugar más visible (ej. junto a "Sobre nosotros" en el menú principal) y simplificar la terminología del sistema PakuPaku-Go con tooltips o una pequeña guía visual. |
-| **Alta** | Problemas de contraste en botones secundarios (puntuación Lighthouse 78). | Ajustar colores para cumplir WCAG 1.4.3: relación de contraste mínima de 4.5:1 para texto normal. Usar herramientas como Contrast Checker. |
-| **Media** | Imágenes del menú sin texto alternativo. | Añadir atributos `alt` descriptivos a todas las imágenes informativas (ej. `alt="Sushi variado con salmón y aguacate"`). |
-| **Media** | El 40% de usuarios necesitó ayuda para completar la tarea del equipo. | Añadir un enlace directo "Conoce al equipo" en el footer o en la página "Acerca de". |
-| **Baja** | Navegación por teclado con focus no visible en algunos elementos. | Implementar `:focus` visible (ej. `outline: 2px solid #ff8c00`) en todos los elementos interactivos. |
+| Prioridad          | Hallazgo                                                                                                                                                                   | Recomendación de Mejora                                                                                                                                               |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Alta (Crítica)** | Se detectaron problemas de contraste entre colores de fondo y primer plano en varios elementos de la interfaz, según la auditoría de Lighthouse (93/100 en accesibilidad). | Ajustar la paleta de colores para cumplir el criterio WCAG 1.4.3, garantizando una relación de contraste mínima de 4.5:1 en textos normales y elementos interactivos. |
+| **Alta**           | Algunos componentes interactivos no disponen de nombres accesibles correctamente definidos.                                                                                | Añadir atributos accesibles como `aria-label`, `title` o textos descriptivos para mejorar la compatibilidad con lectores de pantalla.                                 |
+| **Media**          | Parte del contenido multimedia no incluye alternativas accesibles completas.                                                                                               | Incorporar subtítulos, transcripciones o descripciones alternativas en vídeos y elementos multimedia relevantes.                                                      |
+| **Media**          | Navegación por teclado parcialmente inconsistente debido a focos visuales poco visibles en algunos elementos.                                                              | Implementar estilos visibles para `:focus`, por ejemplo `outline: 2px solid #ff8c00`, manteniendo una navegación clara mediante teclado.                              |
+| **Baja**           | Lighthouse detectó recursos que bloquean el renderizado y contenido JavaScript no utilizado.                                                                               | Optimizar la carga de scripts e imágenes para mejorar el rendimiento y reducir tiempos de carga iniciales.                                                            |
+| **Baja**           | Problemas de indexación SEO relacionados con `robots.txt` y ausencia de sitemap.                                                                                           | Añadir un archivo `sitemap.xml` y revisar la configuración de `robots.txt` para mejorar la indexación en buscadores.                                                  |
+
 
 ---
 
