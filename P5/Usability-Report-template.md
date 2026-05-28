@@ -117,7 +117,6 @@ Las capturas de GazeMapping para el Caso B revelaron:
 ### Zonas de Silencio
 
 - **Pie de página:** Ignorado por el 70% de usuarios (contenido menos relevante).
-- **Menú hamburguesa (mobile view):** Algunos usuarios no lo descubrieron rápidamente en las pruebas de escritorio simuladas.
 
 ### Hallazgo clave
 
