@@ -42,8 +42,7 @@
 ## 2. Metodología y Reclutamiento
 
 - **Perfil de los participantes:**  
-  Se reclutaron 10 usuarios (5 por caso) con edades entre 17 y 57 años, nivel digital medio-alto, diversidad de ocupaciones (estudiantes, profesionales de ciberseguridad, pediatría).  
-  *Resumen demográfico:*  
+  Se reclutaron 5 usuarios para el caso B, con edades entre 17 y 57 años, nivel digital medio-alto, diversidad de ocupaciones (estudiantes, profesionales de ciberseguridad, pediatría).  
   - Edad media: 34.1 años  
   - Nivel digital: 70% Alto, 30% Medio  
   - Género: 60% Masculino, 40% Femenino  
